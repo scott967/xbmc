@@ -427,7 +427,7 @@ CGUIWindowVideoBase::ShowInfoResult CGUIWindowVideoBase::ShowInfo(
     }
     m_database.Close();
   }
-  else if (item->HasVideoInfoTag() && !item->GetVideoInfoTag()->IsEmpty())
+  else if(item->HasVideoInfoTag())
   {
     bHasInfo = true;
     movieDetails = *item->GetVideoInfoTag();
