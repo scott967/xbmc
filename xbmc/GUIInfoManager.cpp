@@ -6946,7 +6946,7 @@ constexpr std::array<InfoMap, 3> container_str = {{
 ///     @return The codec of the first audio stream of the currently selected video, in the order
 ///     the source lists them.
 ///     @note Unlike \link ListItem_AudioCodec `ListItem.AudioCodec`\endlink this describes the
-///     stream listed first by the source\ as described for
+///     stream listed first by the source\, as described for
 ///     \link ListItem_FirstAudioLanguage `ListItem.FirstAudioLanguage`\endlink\ rather than the
 ///     stream playback will select. Pairs
 ///     with \link ListItem_FirstAudioLanguage `ListItem.FirstAudioLanguage`\endlink.
@@ -6960,7 +6960,7 @@ constexpr std::array<InfoMap, 3> container_str = {{
 ///     @return The number of audio channels of the first audio stream of the currently selected
 ///     video, in the order the source lists them.
 ///     @note Unlike \link ListItem_AudioChannels `ListItem.AudioChannels`\endlink this describes
-///     the stream listed first by the source\ as described for
+///     the stream listed first by the source\, as described for
 ///     \link ListItem_FirstAudioLanguage `ListItem.FirstAudioLanguage`\endlink. Accepts
 ///     the same `DefaultLayout` parameter\, ie. `ListItem.FirstAudioChannels(DefaultLayout)`
 ///     renders 6 as 5.1. Pairs with
